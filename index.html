@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Value & Strategy Evaluation Workbench</title>
+<style>
+:root{--bg:#08111f;--p:#101c30;--p2:#15243b;--line:#29405f;--txt:#edf3fa;--mut:#9fb0c5;--a:#65d5ca;--g:#79d69a;--w:#f0c65c;--r:#ff8585}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(135deg,#07101c,#0c1728);color:var(--txt)}
+header{padding:24px 30px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:18px;align-items:flex-end}h1{margin:0 0 5px;font-size:25px}.sub,.muted{color:var(--mut)}.badge{border:1px solid var(--a);color:var(--a);padding:7px 10px;border-radius:999px;font-size:12px}
+main{max-width:1450px;margin:auto;padding:22px 30px 36px}.notice,.card{background:rgba(16,28,48,.96);border:1px solid var(--line);border-radius:13px}.notice{padding:11px 14px;font-size:12px;color:#c3cfdb;margin-bottom:16px}.grid{display:grid;gap:14px}.top{grid-template-columns:1.15fr .85fr}.scores{grid-template-columns:repeat(6,1fr)}.card{padding:16px}.label{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.06em}.big{font-size:28px;font-weight:800;margin:8px 0}.good{color:var(--g)}.warn{color:var(--w)}.bad{color:var(--r)}h2{font-size:15px;margin:0 0 12px}h3{font-size:13px;margin:0 0 7px}.score{font-size:23px;font-weight:800;margin:7px 0}.bar{height:7px;background:#22334b;border-radius:9px;overflow:hidden}.fill{height:100%;background:var(--a)}
+table{width:100%;border-collapse:collapse;font-size:12px}th{text-align:left;color:var(--mut);padding:9px;border-bottom:1px solid var(--line)}td{padding:10px 9px;border-bottom:1px solid #1f3048;vertical-align:top}.pill{display:inline-block;padding:4px 7px;border-radius:999px;background:#182b45;font-size:11px}.risk{border-left:3px solid var(--w);padding:10px 12px;background:#0d1829;border-radius:7px;margin:8px 0}.critical{border-left-color:var(--r)}button{background:#172b45;color:var(--txt);border:1px solid #355473;padding:8px 11px;border-radius:8px;cursor:pointer}button:hover{border-color:var(--a)}
+.tabs{display:flex;gap:8px;margin:16px 0}.tab.active{background:#173c46;border-color:#408f8b}.view{display:none}.view.active{display:block}.journey{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}.step{padding:12px;background:#0e192a;border:1px solid var(--line);border-radius:9px;font-size:12px}.step b{display:block;margin-bottom:5px;color:var(--a)}.footer{text-align:center;color:var(--mut);font-size:11px;margin-top:18px}
+@media(max-width:1100px){.scores{grid-template-columns:repeat(3,1fr)}.top{grid-template-columns:1fr}.journey{grid-template-columns:repeat(3,1fr)}}@media(max-width:650px){header{flex-direction:column;align-items:flex-start}main{padding:16px}.scores,.journey{grid-template-columns:1fr 1fr}}
+
+.application-identity{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;padding:18px 30px 14px;border-bottom:1px solid var(--line);background:rgba(8,16,29,.92)}
+.application-identity .eyebrow{font-size:10px;letter-spacing:.12em;color:var(--muted);font-weight:700;margin-bottom:5px}
+.candidate-name,.company-name{font-size:16px;font-weight:800;letter-spacing:.02em;color:var(--text)}
+.candidate-role,.company-note{font-size:11px;color:var(--muted);margin-top:4px}
+.target-company{text-align:right}
+@media(max-width:650px){.application-identity{flex-direction:column}.target-company{text-align:left}}
+
+</style>
+</head>
+<body>
+
+<div class="application-identity">
+  <div class="candidate">
+    <div class="eyebrow">CANDIDATE</div>
+    <div class="candidate-name">K JAISHANKAR</div>
+    <div class="candidate-role">AI Value &amp; Strategy Consultant — Freelancer</div>
+  </div>
+  <div class="target-company">
+    <div class="eyebrow">POSITION APPLIED AT</div>
+    <div class="company-name">DECCAN AI EXPERTS</div>
+    <div class="company-note">AI Strategy • Enterprise Transformation • Evaluation</div>
+  </div>
+</div>
+
+<header><div><h1>AI Value & Strategy Evaluation Workbench</h1><div class="sub">Enterprise AI Strategy • Business Value • Feasibility • Governance • Transformation</div></div><div class="badge">PORTFOLIO SIMULATION • FICTIONAL CASE</div></header>
+<main>
+<div class="notice"><b>Purpose:</b> Demonstrate how K Jaishankar would evaluate AI-generated strategic content. This fictional case does not represent Deccan AI Experts, a client, or any confidential engagement.</div>
+<div class="grid top">
+<div class="card"><div class="label">AI-generated proposal under review</div><h2 style="font-size:20px;margin-top:8px">AI-Enabled Procurement Transformation</h2><p class="muted" style="line-height:1.55;font-size:13px">Proposal recommends deploying autonomous AI agents across procurement in 90 days, forecasting 40% operating-cost reduction, faster supplier decisions and largely automated purchase-to-order workflows.</p><span class="pill">Generative AI</span> <span class="pill">Intelligent Agents</span> <span class="pill">Procurement</span> <span class="pill">Enterprise Transformation</span></div>
+<div class="card"><div class="label">Evaluator recommendation</div><div class="big warn">CONDITIONAL GO</div><h3>Pilot first — do not approve enterprise-wide rollout yet.</h3><p class="muted" style="font-size:12px;line-height:1.55">The opportunity is credible, but the AI-generated business case overstates near-term savings and understates data, integration, governance and change-management requirements.</p></div>
+</div>
+<div class="grid scores" style="margin-top:14px">
+<div class="card"><div class="label">Business Value</div><div class="score good">8/10</div><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+<div class="card"><div class="label">ROI Evidence</div><div class="score bad">4/10</div><div class="bar"><div class="fill" style="width:40%"></div></div></div>
+<div class="card"><div class="label">Feasibility</div><div class="score warn">6/10</div><div class="bar"><div class="fill" style="width:60%"></div></div></div>
+<div class="card"><div class="label">Data Readiness</div><div class="score bad">4/10</div><div class="bar"><div class="fill" style="width:40%"></div></div></div>
+<div class="card"><div class="label">Governance & Risk</div><div class="score warn">5/10</div><div class="bar"><div class="fill" style="width:50%"></div></div></div>
+<div class="card"><div class="label">Org. Readiness</div><div class="score warn">6/10</div><div class="bar"><div class="fill" style="width:60%"></div></div></div>
+</div>
+<div class="tabs"><button class="tab active" onclick="show('evaluation',this)">Evaluation</button><button class="tab" onclick="show('risks',this)">Strategic Gaps</button><button class="tab" onclick="show('recommendation',this)">Revised Strategy</button><button class="tab" onclick="show('method',this)">Evaluation Method</button></div>
+<section id="evaluation" class="view active">
+<div class="grid top"><div class="card"><h2>AI Recommendation vs Expert Evaluation</h2><table><thead><tr><th>AI Claim</th><th>Expert Assessment</th></tr></thead><tbody>
+<tr><td>40% operating-cost reduction</td><td><b>Unsupported.</b> No current-state cost baseline, benefit attribution model or implementation-cost estimate.</td></tr>
+<tr><td>Enterprise rollout in 90 days</td><td><b>Over-ambitious.</b> Supplier data quality, ERP integration, controls, process variation and adoption are not assessed.</td></tr>
+<tr><td>Autonomous supplier decisions</td><td><b>Governance gap.</b> Decision rights, approval thresholds, human oversight and exception handling are missing.</td></tr>
+<tr><td>Immediate productivity improvement</td><td><b>Plausible but unquantified.</b> Baseline cycle time and workload measures are required before benefits can be validated.</td></tr>
+</tbody></table></div>
+<div class="card"><h2>Executive Evaluation</h2><p style="font-size:13px;line-height:1.65">The use case has genuine value potential in requisition triage, supplier intelligence, contract knowledge retrieval, exception detection and workflow assistance. However, the proposal confuses <b>technical possibility</b> with <b>enterprise readiness</b>. Approval should therefore be limited to a controlled pilot with measurable baseline and governance gates.</p><h3>Decision required</h3><p class="muted" style="font-size:12px">Approve a 10–12 week pilot for selected procurement workflows, subject to data-readiness and control assessment.</p></div></div>
+</section>
+<section id="risks" class="view"><div class="grid top"><div class="card"><h2>Critical Strategic Gaps</h2>
+<div class="risk critical"><b>ROI assumption unsupported</b><br><span class="muted">40% savings is presented without baseline, cost model, adoption assumptions or sensitivity analysis.</span></div>
+<div class="risk critical"><b>Data readiness not established</b><br><span class="muted">Supplier/master data completeness, duplication, classification and historical transaction quality are unknown.</span></div>
+<div class="risk"><b>Integration complexity understated</b><br><span class="muted">ERP, procurement, contract, supplier and identity systems require architecture and security assessment.</span></div>
+<div class="risk"><b>Human-in-the-loop missing</b><br><span class="muted">High-impact supplier and commercial decisions require explicit approval and escalation controls.</span></div>
+</div><div class="card"><h2>Missed Value / Change Considerations</h2><table><tr><td>Process redesign</td><td>AI should simplify work, not automate inefficient process steps unchanged.</td></tr><tr><td>Workforce impact</td><td>Role changes, training and adoption costs are absent.</td></tr><tr><td>Value attribution</td><td>Separate AI-driven benefits from sourcing policy, demand changes and negotiated savings.</td></tr><tr><td>Operating ownership</td><td>Business owner, model owner, risk owner and support model are undefined.</td></tr><tr><td>Scale criteria</td><td>No measurable gate defines when the pilot is ready for broader rollout.</td></tr></table></div></div></section>
+<section id="recommendation" class="view"><div class="card"><h2>Revised Executive Recommendation</h2><div class="journey"><div class="step"><b>1 • BASELINE</b>Current cost, cycle time, exception rate and workload.</div><div class="step"><b>2 • VALIDATE DATA</b>Supplier/master data quality and accessibility.</div><div class="step"><b>3 • PILOT</b>Low/medium-risk workflows with clear boundaries.</div><div class="step"><b>4 • GOVERN</b>Human approval, security, audit and escalation controls.</div><div class="step"><b>5 • MEASURE</b>Benefits, quality, adoption, risk and total cost.</div><div class="step"><b>6 • SCALE</b>Expand only after agreed value and control gates are met.</div></div><br><table><thead><tr><th>Pilot KPI</th><th>Why it matters</th></tr></thead><tbody><tr><td>Procurement cycle time</td><td>Measures operational speed improvement.</td></tr><tr><td>Manual effort / transaction</td><td>Tests productivity value.</td></tr><tr><td>AI recommendation acceptance</td><td>Indicates usefulness and user trust.</td></tr><tr><td>Exception / error rate</td><td>Tests quality and control effectiveness.</td></tr><tr><td>Validated financial benefit</td><td>Supports a defensible scale-up ROI.</td></tr></tbody></table></div></section>
+<section id="method" class="view"><div class="grid top"><div class="card"><h2>Evaluation Framework</h2><table><tr><td><b>1. Strategic Fit</b></td><td>Does the recommendation address a real business priority?</td></tr><tr><td><b>2. Business Value</b></td><td>Are benefits measurable, attributable and material?</td></tr><tr><td><b>3. Feasibility</b></td><td>Can people, process, technology and integrations support it?</td></tr><tr><td><b>4. Data Readiness</b></td><td>Is required data available, usable, governed and sufficiently reliable?</td></tr><tr><td><b>5. Governance & Risk</b></td><td>Are decision rights, controls, security, oversight and accountability defined?</td></tr><tr><td><b>6. Adoption</b></td><td>Are operating-model and workforce changes understood?</td></tr><tr><td><b>7. Value Realization</b></td><td>Are baseline, KPIs, benefit owners and scale gates explicit?</td></tr></table></div><div class="card"><h2>Evaluator Mindset</h2><p style="font-size:13px;line-height:1.65">The objective is not to reject AI-generated content because it is imperfect. The evaluator should distinguish a promising idea from an investment-ready recommendation, identify what evidence is missing, expose unrealistic assumptions, and convert the proposal into a safer and more executable strategy.</p><h3>Core question</h3><p class="muted">“What would need to be true for this recommendation to deliver the claimed business value safely and at scale?”</p></div></div></section>
+<div class="footer">K Jaishankar • AI Value & Enterprise Transformation Consultant • Portfolio Simulation</div>
+</main>
+<script>function show(id,el){document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');el.classList.add('active')}</script>
+</body></html>
